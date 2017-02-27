@@ -1,0 +1,6 @@
+1. cd /home/jan/GIT/
+2. git add *
+3. git commit -m ""
+4. git push origin master
+5.https://rogerdudler.github.io/git-guide/index.de.html
+
