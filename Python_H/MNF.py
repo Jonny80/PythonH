@@ -9,9 +9,11 @@ def MNF(a, b, c):
         e2 = (-b+math.sqrt(b*b-(4*a*c)))/2*a
         print(e1,e2)
 
-def fib(n):
-    erg = (fib(n) ** 2 + fib(n + 1) ** 2)
-    print(erg)
+def Fibo(n):
+    if n == 1 or n == 0:
+        return 1
+    return Fibo(n - 1) + Fibo(n - 2)
+    print(Fibo(7))
 
 
 def sum(z):
@@ -29,7 +31,7 @@ if opt == 1:
     MNF(a1,a2,a3)
 if opt == 2:
     a4= int(input())
-    fib(a4)
+    Fibo(a4)
 if opt == 3:
     a5 = int(input())
     sum(a5)
