@@ -22,7 +22,7 @@ for i in range(1, 4):
         t.start()
         t.join()
         threadlist.append(t)
-        if len(threadlist) == 100 :
+        if len(threadlist) == 100:
             newlist.append(threadlist)
             t.join()
             del threadlist[0:100]
